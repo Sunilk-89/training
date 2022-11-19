@@ -6,4 +6,5 @@ export interface Superhero {
     alter_ego: string;
     first_appearance: string;
     characters: string;
+    wikiLink:string;
 }

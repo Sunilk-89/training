@@ -13,7 +13,7 @@
           <img class="card-img-top" [src]="shero?.image" alt="Card image">
           <span class="round-button" title="Close view" (click)="detailsView=false" >&times;</span>
           <div class="card-block">
-            <h3 class="card-title text-center fbold">{{shero?.superhero}}</h3>
+            <h3 class="card-title text-center fbold" title="click to go wikipedia"> <a target="_blank" [href]="shero?.wikiLink">  {{shero?.superhero}}&nbsp;<i class="fa fa-external-link fa-2xs"  aria-hidden="true"></i></a>   </h3>
             <ul class="list-group fntfam">
               <li class="list-group-item list-group-item-dark"> <span class="fbold">Publisher : </span>{{shero?.publisher}}</li>
               <li class="list-group-item list-group-item-dark"><span class="fbold">Alter ego : </span>{{shero?.alter_ego}}</li>
