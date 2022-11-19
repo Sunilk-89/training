@@ -3,7 +3,7 @@
     <div class="row justify-content-md-center">
       <div class="col "  [ngClass]="detailsView  ? 'col-lg-9 scrlDiv' : 'col-lg-12'">
          <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" *ngFor="let hero of superHeros" >
+          <div [ngClass]="detailsView  ? 'col-md-3 col-lg-3' : 'col-md-2 col-lg-2'" class="col-xs-12 col-sm-6" *ngFor="let hero of superHeros" >
             <app-hero [hero]="hero" (sheroEvent)="gethero(($any($event)))"></app-hero>
      </div>
          </div>
@@ -13,7 +13,7 @@
           <img class="card-img-top" [src]="shero?.image" alt="Card image">
           <span class="round-button" title="Close view" (click)="detailsView=false" >&times;</span>
           <div class="card-block">
-            <h3 class="card-title text-center">{{shero?.superhero}}</h3>
+            <h3 class="card-title text-center fbold">{{shero?.superhero}}</h3>
             <ul class="list-group fntfam">
               <li class="list-group-item list-group-item-dark"> <span class="fbold">Publisher : </span>{{shero?.publisher}}</li>
               <li class="list-group-item list-group-item-dark"><span class="fbold">Alter ego : </span>{{shero?.alter_ego}}</li>

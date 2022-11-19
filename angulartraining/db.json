@@ -8,7 +8,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Bruce Wayne",
           "first_appearance":"Detective Comics #27",
-          "characters":"Bruce Wayne"
+          "characters":"Bruce Wayne",
+          "wikiLink":"https://en.wikipedia.org/wiki/Batman"
       },
       {
           "id":2,
@@ -17,7 +18,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Kal-El",
           "first_appearance":"Action Comics #1",
-          "characters":"Kal-El"
+          "characters":"Kal-El",
+          "wikiLink":"https://en.wikipedia.org/wiki/Superman"
       },
       {
           "id":3,
@@ -26,7 +28,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Jay Garrick",
           "first_appearance":"Flash Comics #1",
-          "characters":"Jay Garrick, Barry Allen, Wally West, Bart Allen"
+          "characters":"Jay Garrick, Barry Allen, Wally West, Bart Allen",
+          "wikiLink":"https://en.wikipedia.org/wiki/Flash_(DC_Comics_character)"
       },
       {
           "id":4,
@@ -35,7 +38,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Alan Scott",
           "first_appearance":"All-American Comics #16",
-          "characters":"Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
+          "characters":"Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
+          "wikiLink":"https://en.wikipedia.org/wiki/Green_Lantern"
       },
       {
           "id":5,
@@ -44,7 +48,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Oliver Queen",
           "first_appearance":"More Fun Comics #73",
-          "characters":"Oliver Queen"
+          "characters":"Oliver Queen",
+          "wikiLink":"https://en.wikipedia.org/wiki/Green_Arrow"
       },
       {
           "id":6,
@@ -53,7 +58,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Princess Diana",
           "first_appearance":"All Star Comics #8",
-          "characters":"Princess Diana"
+          "characters":"Princess Diana",
+          "wikiLink":"https://en.wikipedia.org/wiki/Wonder_Woman"
       },
       {
           "id":7,
@@ -62,7 +68,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"J'onn J'onzz",
           "first_appearance":"Detective Comics #225",
-          "characters":"Martian Manhunter"
+          "characters":"Martian Manhunter",
+          "wikiLink":"https://en.wikipedia.org/wiki/Martian_Manhunter"
       },
       {
           "id":8,
@@ -71,7 +78,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Dick Grayson",
           "first_appearance":"Detective Comics #38",
-          "characters":"Dick Grayson"
+          "characters":"Dick Grayson",
+          "wikiLink":"https://en.wikipedia.org/wiki/Nightwing"
       },
       {
           "id":9,
@@ -80,7 +88,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Dan Garret",
           "first_appearance":"Mystery Men Comics #1",
-          "characters":"Dan Garret, Ted Kord, Jaime Reyes"
+          "characters":"Dan Garret, Ted Kord, Jaime Reyes",
+          "wikiLink":"https://en.wikipedia.org/wiki/Blue_Beetle"
       },
       {
           "id":10,
@@ -89,7 +98,8 @@
           "publisher":"DC Comics", 
           "alter_ego":"Dinah Drake",
           "first_appearance":"Flash Comics #86",
-          "characters":"Dinah Drake, Dinah Lance"
+          "characters":"Dinah Drake, Dinah Lance",
+          "wikiLink":"https://en.wikipedia.org/wiki/Black_Canary"
       },
       {
           "id":11,
@@ -98,7 +108,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Peter Parker",
           "first_appearance":"Amazing Fantasy #15",
-          "characters":"Peter Parker"
+          "characters":"Peter Parker",
+          "wikiLink":"https://en.wikipedia.org/wiki/Spider-Man"
       },
       {
           "id":12,
@@ -107,7 +118,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Steve Rogers",
           "first_appearance":"Captain America Comics #1",
-          "characters":"Steve Rogers"
+          "characters":"Steve Rogers",
+          "wikiLink":"https://en.wikipedia.org/wiki/Captain_America"
       },
       {
           "id":13,
@@ -116,7 +128,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Tony Stark",
           "first_appearance":"Tales of Suspense #39",
-          "characters":"Tony Stark"
+          "characters":"Tony Stark",
+          "wikiLink":"https://en.wikipedia.org/wiki/Iron_Man"
       },
       {
           "id":14,
@@ -125,7 +138,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Thor Odinson",
           "first_appearance":"Journey into Myster #83",
-          "characters":"Thor Odinson"
+          "characters":"Thor Odinson",
+          "wikiLink":"https://en.wikipedia.org/wiki/Thor_(Marvel_Comics)"
       },
       {
           "id":15,
@@ -134,7 +148,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Bruce Banner",
           "first_appearance":"The Incredible Hulk #1",
-          "characters":"Bruce Banner"
+          "characters":"Bruce Banner",
+          "wikiLink":"https://en.wikipedia.org/wiki/Hulk"
       },
       {
           "id":16,
@@ -143,7 +158,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"James Howlett",
           "first_appearance":"The Incredible Hulk #180",
-          "characters":"James Howlett"
+          "characters":"James Howlett",
+          "wikiLink":"https://en.wikipedia.org/wiki/Wolverine_(character)"
       },
       {
           "id":17,
@@ -152,7 +168,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Matthew Michael Murdock",
           "first_appearance":"Daredevil #1",
-          "characters":"Matthew Michael Murdock"
+          "characters":"Matthew Michael Murdock",
+          "wikiLink":"https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)"
       },
       {
           "id":18,
@@ -161,7 +178,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Clinton Francis Barton",
           "first_appearance":"Tales of Suspense #57",
-          "characters":"Clinton Francis Barton"
+          "characters":"Clinton Francis Barton",
+          "wikiLink":"https://en.wikipedia.org/wiki/Hawkeye_(Clint_Barton)"
       },
       {
           "id":19,
@@ -170,7 +188,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Scott Summers",
           "first_appearance":"X-Men #1",
-          "characters":"Scott Summers"
+          "characters":"Scott Summers",
+          "wikiLink":"https://en.wikipedia.org/wiki/Cyclops_(Marvel_Comics)"
       },
       {
           "id":20,
@@ -179,7 +198,8 @@
           "publisher":"Marvel Comics", 
           "alter_ego":"Norrin Radd",
           "first_appearance":"The Fantastic Four #48",
-          "characters":"Norrin Radd"
+          "characters":"Norrin Radd",
+          "wikiLink":"https://en.wikipedia.org/wiki/Silver_Surfer"
       }
   
 ]
