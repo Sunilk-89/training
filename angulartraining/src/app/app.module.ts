@@ -14,7 +14,7 @@ import { HeroComponent } from './hero/hero.component';
       HerosComponent,
       NavComponent,
       ContactUsComponent,
-      HeroComponent
+      HeroComponent,
    ],
   imports: [
     BrowserModule,

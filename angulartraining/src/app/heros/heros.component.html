@@ -1,15 +1,27 @@
 <div class="cards_landscape_wrap-2">
   <div class="container">
     <div class="row justify-content-md-center">
-      <div class="col col-lg-9">
+      <div class="col "  [ngClass]="detailsView  ? 'col-lg-9 scrlDiv' : 'col-lg-12'">
          <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" *ngFor="let hero of superHeros" >
-            <app-hero [hero]="hero" (sheroEvent)="getSuperhero($event)"></app-hero>
+            <app-hero [hero]="hero" (sheroEvent)="gethero(($any($event)))"></app-hero>
      </div>
          </div>
       </div>
-      <div class="col-md-auto" *ngIf="shero">
-       {{shero}}
+      <div class="col-lg-3" *ngIf="detailsView">
+        <div class="card justify-content-center">
+          <img class="card-img-top" [src]="shero?.image" alt="Card image">
+          <span class="round-button" title="Close view" (click)="detailsView=false" >&times;</span>
+          <div class="card-block">
+            <h3 class="card-title text-center">{{shero?.superhero}}</h3>
+            <ul class="list-group fntfam">
+              <li class="list-group-item list-group-item-dark"> <span class="fbold">Publisher : </span>{{shero?.publisher}}</li>
+              <li class="list-group-item list-group-item-dark"><span class="fbold">Alter ego : </span>{{shero?.alter_ego}}</li>
+              <li class="list-group-item list-group-item-dark"><span class="fbold">First appearance : </span>{{shero?.first_appearance}}</li>
+              <li class="list-group-item list-group-item-dark"><span class="fbold">Characters : </span>{{shero?.characters}}</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>

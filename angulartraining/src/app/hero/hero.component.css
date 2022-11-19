@@ -4,6 +4,7 @@
     border-radius: 0;
     border: 0;
     margin-bottom: 1.5em;
+    cursor:pointer;
   }
 
 .card-img-top {
@@ -18,4 +19,8 @@
   .card:hover {
     transform: scale(1.1);
   }
- 
+  
+ .cby{
+  background-color: black;
+  color:white;
+ }

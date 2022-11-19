@@ -8,7 +8,8 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./heros.component.css']
 })
 export class HerosComponent implements OnInit {
-  shero: any = {};
+  detailsView:boolean = false;
+  shero?: Superhero;
   superHeros:Superhero[]=[];
   constructor(private heroService:HeroService) { }
 
@@ -22,9 +23,20 @@ export class HerosComponent implements OnInit {
     })
   }
 
-  getSuperhero(s: any) : any{
+  gethero(s: Superhero)  {
+    if(!this.shero)
+    {
+      this.shero =s;
+      this.detailsView = true;
+    }else if(this.detailsView && s.id == this.shero.id)
+    {
+      this.detailsView = false;
+    }else
+    {
+      this.shero =s;
+      this.detailsView = true;
+    }
    
-      this.shero =(s.target as HTMLInputElement).value;
     
   }
 
